@@ -1,0 +1,6 @@
+<h1>Welcome!</h1>
+<% if user_signed_in? %>
+    <p>You are logged in as: <b> <%= current_user.email %> </b> with ID: <b> <%= current_user.id %> </b></p>
+<% else %>
+    <p>Please log in to add your friends.</p>
+<% end %>
