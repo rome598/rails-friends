@@ -86,6 +86,8 @@ GEM
     crass (1.0.6)
     date (3.3.3)
     debug (1.7.1)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
     devise (4.8.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -100,13 +102,16 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
+    io-console (0.6.0)
+    irb (1.6.2)
+      reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.8.0.1)
+    mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
@@ -128,8 +133,6 @@ GEM
       net-protocol
     nio4r (2.5.8)
     nokogiri (1.14.1-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.14.1-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.4.5)
@@ -168,9 +171,11 @@ GEM
       zeitwerk (~> 2.5)
     rake (13.0.6)
     regexp_parser (2.6.2)
-    responders (3.0.1)
-      actionpack (>= 5.0)
-      railties (>= 5.0)
+    reline (0.3.2)
+      io-console (~> 0.5)
+    responders (3.1.0)
+      actionpack (>= 5.2)
+      railties (>= 5.2)
     rexml (3.2.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.8.0)
@@ -185,7 +190,6 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.0-arm64-darwin)
-    sqlite3 (1.6.0-x86_64-linux)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -217,7 +221,6 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -242,4 +245,4 @@ RUBY VERSION
    ruby 3.2.0p0
 
 BUNDLED WITH
-   2.4.4
+   2.4.6
