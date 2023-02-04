@@ -27,6 +27,8 @@ gem "jbuilder"
 # Devise: Gem that handler all user managment stuff
 gem 'devise', '~> 4.8', '>= 4.8.1'
 
+gem 'pg', '~> 1.4', '>= 1.4.5'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
